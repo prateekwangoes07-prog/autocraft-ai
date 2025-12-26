@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <div style={{ padding: "40px", fontFamily: "Arial" }}>
+      <h1>Privacy Policy</h1>
+      <p><strong>Last updated:</strong> December 26, 2025</p>
+
+      <p>
+        AutoCraft AI respects your privacy. We collect limited usage data
+        to improve our service. We do not sell personal data.
       </p>
-    </>
-  )
+
+      <h2>Information We Collect</h2>
+      <ul>
+        <li>Basic usage data (IP address, browser type)</li>
+        <li>Device information</li>
+      </ul>
+
+      <h2>How We Use Information</h2>
+      <ul>
+        <li>To operate and improve our service</li>
+        <li>To ensure security</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Email: prateek.wangoes07@gmail.com</p>
+    </div>
+  );
 }
 
-export default App
+export default App;
